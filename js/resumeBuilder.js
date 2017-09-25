@@ -82,7 +82,7 @@ bio.display = function () {
 	var formaLinkedIn = HTMLLinkedIn.replace("%data%", bio.contacts.linkedIn);
 	var formaLoc   = HTMLlocation.replace("%data%", bio.contacts.location);
 	$("#topContacts").append(formaMobile, formaEmail, formaGitHub, formaLinkedIn, formaLoc);
-
+	$("#footerContacts").append(formaMobile, formaEmail, formaGitHub, formaLinkedIn, formaLoc);
 	var formaImg = HTMLbioPic.replace("%data%", bio.bioPic);
 	var formaWel = HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
 	$("#header").append(formaImg, formaWel);

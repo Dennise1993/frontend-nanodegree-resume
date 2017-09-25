@@ -61,6 +61,9 @@ h5 {
 
 }
 
+.education-entry h3 {
+ padding: 10px 0 0 0;
+}
 
 .date-text {
   font-style: italic;
@@ -164,7 +167,14 @@ ul {
 }
 
 img {
-  padding: 10px;
+  padding: 10px 10px 10px 0;
+}
+img:last {
+  margin-right: 0;
+}
+
+.project-entry img {
+  width:calc(97%/2);
 }
 
 span {
@@ -181,11 +191,18 @@ span {
   #lets-connect {
     margin-top: 5%;
   }
+
+  .project-entry img {
+    width:calc(97%/2);
+  }
 }
 
 @media only screen and (max-width:900px) {
   .biopic {
     width: 175px;
+  }
+  .project-entry img {
+    width:calc(97%/2);
   }
 }
 
@@ -198,6 +215,9 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  .project-entry img {
+    width:100%;
   }
 }
 

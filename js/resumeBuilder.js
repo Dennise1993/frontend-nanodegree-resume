@@ -97,7 +97,7 @@ bio.display = function () {
         $("#skills").append(formaSkill);
       }); 
     }
-}	
+};	
 
 
 work.display = function() {
@@ -114,7 +114,7 @@ work.display = function() {
     	var formaJobDesc = HTMLworkDescription.replace("%data%", job.description);
     	$(".work-entry:last").append(formaEmploTit, formaJobDates, formaJobLoc, formaJobDesc);    	
     });
-}
+};
 
 projects.display = function() {
 	projects.projects.forEach(function(project) {
@@ -137,7 +137,7 @@ projects.display = function() {
 		}
 
 	});
-}
+};
 
 education.display = function() {
 
@@ -170,7 +170,7 @@ education.display = function() {
 		});
 	}
 	
-}
+};
 
 bio.display();
 work.display();

@@ -156,8 +156,9 @@ education.display = function() {
 					$(".education-entry:last").append(formaSclMajor);
 				});
 			}
-		})
+		});
 	}
+  
 
 	if(education.onlineCourses.length>0) {
 		$(".education-entry:last").append(HTMLonlineClasses);

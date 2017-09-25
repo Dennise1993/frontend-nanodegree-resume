@@ -165,9 +165,11 @@ education.display = function() {
 
 };
 
+//put the dummy data into index.html
 bio.display();
 work.display();
 projects.display();
 education.display();
 
+//show the google map
 $("#mapDiv").append(googleMap);
